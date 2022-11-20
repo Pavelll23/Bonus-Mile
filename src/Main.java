@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int Ticket = 100; // Стоимость билета
-        int a = 20; // Количество рублей для одной бонусной мили
-        int mile = Ticket / a; // Количество бонусных милей
+        int ticket = 100; // Стоимость билета
+        int rubles = 20; // Количество рублей для одной бонусной мили
+        int bonus = ticket / rubles; // Количество бонусных милей
 
 
-        System.out.println("Бонусные мили:" + mile);
+        System.out.println("Бонусные мили:" + bonus);
     }
 
 }
